@@ -1,0 +1,121 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,PX_LAST         ,  R-squared:         ,   0.239
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.231
+Method:          ,Least Squares   ,  F-statistic:       ,   28.63
+Date:            ,Fri, 12 Jul 2019,  Prob (F-statistic):,  0.00  
+Time:            ,13:11:57        ,  Log-Likelihood:    ,  4187.4
+No. Observations:,  8762          ,  AIC:               ,  -8183.
+Df Residuals:    ,  8666          ,  BIC:               ,  -7503.
+Df Model:        ,    95          ,                     ,        
+Covariance Type: ,nonrobust       ,                     ,        
+                                                                                    ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const                                                                               ,    0.0363,    0.002,   22.508, 0.000,    0.033,    0.039
+EBITDA                                                                              ,   -0.0092,    0.002,   -5.508, 0.000,   -0.013,   -0.006
+RETURN_COM_EQY                                                                      ,    0.0059,    0.002,    3.044, 0.002,    0.002,    0.010
+2 EARN_FOR_COMMON                                                                   ,   -0.0054,    0.002,   -3.331, 0.001,   -0.009,   -0.002
+Management - Capital Discipline  Avg ( delta Earn For Common/delta Capital Employed),    0.0108,    0.002,    6.632, 0.000,    0.008,    0.014
+People Filter Avg (Sales/Employee)                                                  ,    0.0044,    0.002,    2.697, 0.007,    0.001,    0.008
+Strategy Filter EBITDA CAGR                                                         ,    0.0137,    0.002,    8.229, 0.000,    0.010,    0.017
+Financial Filter ( Last 3 Year Data ) ROE Avg                                       ,   -0.0117,    0.002,   -6.070, 0.000,   -0.016,   -0.008
+EU EUCCEMU Index Last Price                                                         ,   -0.0294,    0.007,   -4.204, 0.000,   -0.043,   -0.016
+US EXP1CYOY Index Last Price                                                        ,    0.0366,    0.006,    5.832, 0.000,    0.024,    0.049
+Japan JNCPIYOY Index Last Price                                                     ,   -0.0642,    0.004,  -14.550, 0.000,   -0.073,   -0.056
+Swiss Franc USDCHF Curncy Last Price                                                ,   -0.0335,    0.011,   -3.159, 0.002,   -0.054,   -0.013
+Taiwanese Dollar USDTWD Curncy Last Price                                           ,    0.0276,    0.007,    4.046, 0.000,    0.014,    0.041
+Korean Won USDKRW Curncy Last Price                                                 ,    0.0286,    0.006,    4.728, 0.000,    0.017,    0.040
+Indian Rupee USDINR Curncy Last Price                                               ,    0.0661,    0.009,    7.492, 0.000,    0.049,    0.083
+Indonesian Rupiah USDIDR Curncy Last Price                                          ,   -0.0326,    0.006,   -5.598, 0.000,   -0.044,   -0.021
+Gold XAU Curncy Last Price                                                          ,   -0.1361,    0.017,   -7.812, 0.000,   -0.170,   -0.102
+LME Copper LMCADY Comdty Last Price                                                 ,    0.1036,    0.013,    8.270, 0.000,    0.079,    0.128
+UBS US real estate bubble index CHBBNYC Index Last Price                            ,   -0.0672,    0.009,   -7.259, 0.000,   -0.085,   -0.049
+Nasdaq Composite CCMP Index Last Price                                              ,    0.0670,    0.008,    8.551, 0.000,    0.052,    0.082
+Topix Japan TPX Index Last Price                                                    ,   -0.0392,    0.009,   -4.354, 0.000,   -0.057,   -0.022
+Libor US0003M Index Last Price                                                      ,    0.0658,    0.008,    7.920, 0.000,    0.050,    0.082
+ECB ECMSM2 Index Last Price                                                         ,   -0.2477,    0.022,  -11.384, 0.000,   -0.290,   -0.205
+S&P500 SPX Index Price Earnings Ratio (P/E)                                         ,   -0.0556,    0.011,   -5.272, 0.000,   -0.076,   -0.035
+Indonesia Motor vehicle sales IDVHCLOC Index Last Price                             ,    0.0462,    0.009,    4.964, 0.000,    0.028,    0.064
+ VIX Index PX_LAST                                                                  ,    0.0541,    0.006,    8.474, 0.000,    0.042,    0.067
+ FDTGOFSF Index PX_LAST                                                             ,    0.0382,    0.004,    9.945, 0.000,    0.031,    0.046
+ FDTGOFSF Index PX_LAST.1                                                           ,    0.0382,    0.004,    9.945, 0.000,    0.031,    0.046
+ SHASHR Index PX_LAST                                                               ,    0.0331,    0.009,    3.519, 0.000,    0.015,    0.052
+ SHASHR Index PE_RATIO                                                              ,   -0.0206,    0.007,   -2.829, 0.005,   -0.035,   -0.006
+ SPX Index PX_LAST                                                                  ,   -0.1470,    0.014,  -10.602, 0.000,   -0.174,   -0.120
+ Japan Govt Bond Year to maturi GJGC10 Index                                        ,    0.0634,    0.005,   12.565, 0.000,    0.053,    0.073
+ Italy Generic Govt 10Y Yield GBTP10YR Index                                        ,   -0.0594,    0.006,   -9.421, 0.000,   -0.072,   -0.047
+ Global High Yield LG30TRUU Index                                                   ,    0.2706,    0.028,    9.687, 0.000,    0.216,    0.325
+1D US CPI EHPIUS Index Last Price                                                   ,    0.0121,    0.004,    3.145, 0.002,    0.005,    0.020
+1D US CONSSENT Index Last Price                                                     ,   -0.0103,    0.002,   -4.281, 0.000,   -0.015,   -0.006
+1D Japan JCOMSHCF Index Last Price                                                  ,   -0.0082,    0.002,   -3.366, 0.001,   -0.013,   -0.003
+1D EU EUCCEMU Index Last Price                                                      ,    0.0125,    0.003,    4.622, 0.000,    0.007,    0.018
+1D US CPI YOY Index Last Price                                                      ,   -0.0218,    0.004,   -5.057, 0.000,   -0.030,   -0.013
+1D Japan JNCPIYOY Index Last Price                                                  ,   -0.0165,    0.002,   -6.735, 0.000,   -0.021,   -0.012
+1D EURO USDEUR Curncy Last Price                                                    ,    0.0623,    0.007,    8.503, 0.000,    0.048,    0.077
+1D Swiss Franc USDCHF Curncy Last Price                                             ,   -0.0252,    0.007,   -3.574, 0.000,   -0.039,   -0.011
+1D Taiwanese Dollar USDTWD Curncy Last Price                                        ,   -0.0306,    0.003,   -9.288, 0.000,   -0.037,   -0.024
+1D Indonesian Rupiah USDIDR Curncy Last Price                                       ,   -0.0167,    0.004,   -4.619, 0.000,   -0.024,   -0.010
+1D Crude Palm oil KO3 Comdty Last Price                                             ,    0.0260,    0.003,    7.988, 0.000,    0.020,    0.032
+1D LME Copper LMCADY Comdty Last Price                                              ,    0.0378,    0.004,   10.451, 0.000,    0.031,    0.045
+1D Euro Stoxx SX5E Index Last Price                                                 ,    0.0174,    0.004,    4.737, 0.000,    0.010,    0.025
+1D Nasdaq Composite CCMP Index Last Price                                           ,    0.0112,    0.003,    3.202, 0.001,    0.004,    0.018
+1D US EHUPUS Index Last Price                                                       ,   -0.0617,    0.007,   -9.076, 0.000,   -0.075,   -0.048
+1D Germany EHUPDE Index Last Price                                                  ,   -0.0198,    0.003,   -5.940, 0.000,   -0.026,   -0.013
+1D Japan EHUPJP Index Last Price                                                    ,   -0.0113,    0.004,   -3.185, 0.001,   -0.018,   -0.004
+1D EU EUUCEMU Index Last Price                                                      ,   -0.0884,    0.006,  -14.164, 0.000,   -0.101,   -0.076
+1D US 10yr Govt Bond Yield USGG10YR Index Last Price                                ,   -0.0202,    0.004,   -5.277, 0.000,   -0.028,   -0.013
+1D Germany Govt 10yr bond yield GDBR10 Index Last Price                             ,    0.0255,    0.004,    6.615, 0.000,    0.018,    0.033
+1D Libor US0003M Index Last Price                                                   ,    0.0141,    0.003,    4.873, 0.000,    0.008,    0.020
+1D S&P 500 SPX Index BEst EPS                                                       ,    0.0120,    0.003,    4.180, 0.000,    0.006,    0.018
+1D MSCI China MXCN Index Price Earnings Ratio (P/E)                                 ,   -0.0040,    0.001,   -2.997, 0.003,   -0.007,   -0.001
+1D MSCI Asia Pacific MXAP Index Price Earnings Ratio (P/E)                          ,   -0.0040,    0.001,   -2.997, 0.003,   -0.007,   -0.001
+1D India Commercial Credit INCMCREY Index Last Price                                ,   -0.0120,    0.002,   -5.915, 0.000,   -0.016,   -0.008
+1D  MXAPJ Index PX_TO_BOOK_RATIO                                                    ,   -0.0377,    0.007,   -5.346, 0.000,   -0.051,   -0.024
+1D  MXAPJ Index PX_TO_SALES_RATIO                                                   ,    0.0175,    0.007,    2.639, 0.008,    0.005,    0.031
+1D  SHASHR Index PE_RATIO                                                           ,   -0.0214,    0.004,   -5.552, 0.000,   -0.029,   -0.014
+1D  SHASHR Index PX_TO_SALES_RATIO                                                  ,    0.0166,    0.004,    4.045, 0.000,    0.009,    0.025
+1D  SPX Index PE_RATIO                                                              ,    0.0234,    0.005,    4.456, 0.000,    0.013,    0.034
+1D  SPX Index PX_TO_BOOK_RATIO                                                      ,   -0.0326,    0.006,   -5.297, 0.000,   -0.045,   -0.021
+1D  NKY Index PX_LAST                                                               ,    0.0187,    0.003,    7.262, 0.000,    0.014,    0.024
+1D  TR/CC CRB ER Index CRY Index                                                    ,    0.0183,    0.003,    6.461, 0.000,    0.013,    0.024
+1D  Generic 1st 'HG' Future HG1 Comdty                                              ,   -0.0195,    0.003,   -6.652, 0.000,   -0.025,   -0.014
+2D US CPI YOY Index Last Price                                                      ,    0.0112,    0.003,    3.549, 0.000,    0.005,    0.017
+2D EURO USDEUR Curncy Last Price                                                    ,   -0.0429,    0.006,   -6.785, 0.000,   -0.055,   -0.030
+2D Swiss Franc USDCHF Curncy Last Price                                             ,    0.0205,    0.006,    3.284, 0.001,    0.008,    0.033
+2D Taiwanese Dollar USDTWD Curncy Last Price                                        ,    0.0313,    0.003,    9.929, 0.000,    0.025,    0.037
+2D Indonesian Rupiah USDIDR Curncy Last Price                                       ,    0.0131,    0.003,    4.018, 0.000,    0.007,    0.019
+2D Crude Palm oil KO3 Comdty Last Price                                             ,   -0.0190,    0.003,   -6.106, 0.000,   -0.025,   -0.013
+2D LME Copper LMCADY Comdty Last Price                                              ,   -0.0233,    0.003,   -7.072, 0.000,   -0.030,   -0.017
+2D UBS US real estate bubble index CHBBNYC Index Last Price                         ,    0.0097,    0.002,    4.519, 0.000,    0.006,    0.014
+2D Dow Jones US real estate index DJUSRE Index Last Price                           ,    0.0150,    0.003,    5.748, 0.000,    0.010,    0.020
+2D US EHUPUS Index Last Price                                                       ,    0.0204,    0.003,    6.585, 0.000,    0.014,    0.027
+2D EU EUUCEMU Index Last Price                                                      ,    0.0117,    0.003,    3.447, 0.001,    0.005,    0.018
+2D Japan OEJPDGBO Index Last Price                                                  ,   -0.0227,    0.003,   -7.740, 0.000,   -0.028,   -0.017
+2D Germany Govt 10yr bond yield GDBR10 Index Last Price                             ,   -0.0117,    0.003,   -4.155, 0.000,   -0.017,   -0.006
+2D Japan Govt 10yr bond yield GJGB10 Index Last Price                               ,    0.0208,    0.002,    8.617, 0.000,    0.016,    0.026
+2D US M2 Index Last Price                                                           ,   -0.0173,    0.002,   -7.874, 0.000,   -0.022,   -0.013
+2D China CNMSM2 Index Last Price                                                    ,    0.0104,    0.002,    5.096, 0.000,    0.006,    0.014
+2D MSCI China MXCN Index Price Earnings Ratio (P/E)                                 ,    0.0056,    0.001,    3.827, 0.000,    0.003,    0.008
+2D MSCI Asia Pacific MXAP Index Price Earnings Ratio (P/E)                          ,    0.0056,    0.001,    3.827, 0.000,    0.003,    0.008
+2D China Monthly New Loan CNLNNEW Index Last Price                                  ,   -0.0181,    0.002,   -7.353, 0.000,   -0.023,   -0.013
+2D Indonesia Motor vehicle sales IDVHCLOC Index Last Price                          ,    0.0090,    0.002,    3.999, 0.000,    0.005,    0.013
+2D US Output Gap CBOPGAPN Index PX_LAST                                             ,   -0.0049,    0.001,   -3.339, 0.001,   -0.008,   -0.002
+2D  FDTGOFSF Index PX_LAST                                                          ,    0.0055,    0.001,    3.692, 0.000,    0.003,    0.008
+2D  CBOPGAPN Index PX_LAST                                                          ,   -0.0049,    0.001,   -3.339, 0.001,   -0.008,   -0.002
+2D  FDTGOFSF Index PX_LAST.1                                                        ,    0.0055,    0.001,    3.692, 0.000,    0.003,    0.008
+2D  MXAPJ Index PE_RATIO                                                            ,   -0.0132,    0.002,   -5.975, 0.000,   -0.018,   -0.009
+2D  MXAPJ Index IS_EPS                                                              ,   -0.0158,    0.003,   -4.669, 0.000,   -0.022,   -0.009
+2D  SHASHR Index PX_TO_BOOK_RATIO                                                   ,    0.0287,    0.006,    4.786, 0.000,    0.017,    0.040
+2D  SHASHR Index PX_TO_SALES_RATIO                                                  ,   -0.0238,    0.006,   -4.157, 0.000,   -0.035,   -0.013
+2D  SPX Index PX_LAST                                                               ,   -0.0158,    0.004,   -3.624, 0.000,   -0.024,   -0.007
+2D  SPX Index PE_RATIO                                                              ,   -0.0256,    0.005,   -4.982, 0.000,   -0.036,   -0.016
+2D  SPX Index PX_TO_BOOK_RATIO                                                      ,    0.0411,    0.005,    7.691, 0.000,    0.031,    0.052
+2D IRON ORE Generic 1st 'CL' Future CL1 Comdty                                      ,    0.0147,    0.002,    6.680, 0.000,    0.010,    0.019
+2D  Gold Spot   $/Oz XAU Curncy                                                     ,   -0.0185,    0.002,   -8.363, 0.000,   -0.023,   -0.014
+Omnibus:      ,4640.336,  Durbin-Watson:     ,   0.783  
+Prob(Omnibus):, 0.000  ,  Jarque-Bera (JB):  ,174154.549
+Skew:         , 1.895  ,  Prob(JB):          ,    0.00  
+Kurtosis:     ,24.510  ,  Cond. No.          ,1.21e+16  
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 6.19e-28. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
